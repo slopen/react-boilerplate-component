@@ -52,8 +52,7 @@ module.file_ext=.jsx
 module.file_ext=.less
 module.name_mapper='.*\(.less\)' -> 'LessModule'
 module.name_mapper='^styles\(.*\)$' -> '<PROJECT_ROOT>/src/styles/\1'
-module.name_mapper='^components\(.*\)$' -> '<PROJECT_ROOT>/src/\1'
+module.name_mapper='^components\(.*\)$' -> '<PROJECT_ROOT>/src/components/\1'
 module.name_mapper='^components\(.*\)$' -> '<PROJECT_ROOT>/develop/src/components/\1'
-
 [version]
 
